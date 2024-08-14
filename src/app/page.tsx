@@ -10,7 +10,7 @@ const topRatedMovies = await  getTopratedMovies();
 const popularMovies = await getPopularMovies();
   return (
   <main>
-    <CarrouselBannerWrapper />
+    <CarrouselBannerWrapper   />
        <div className="flex flex-col space-y-2  xl:-mt-48">
           <MovieCaroussel movies={upcomingMovies} title="Upcoming"  />
           <MovieCaroussel movies={topRatedMovies} title="Top Rated" />

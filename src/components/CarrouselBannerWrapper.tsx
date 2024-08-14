@@ -4,8 +4,8 @@ import CarrouselBanner from "./CarrouselBanner"
 
 type Props={
    
-    id:string,
-    keywords:string ,
+    id?: string;
+    keywords?: string;
 }
 export default async function CarrouselBannerWrapper({id , keywords}:Props) {
     const movies = await  getDiscoveryMovies(id , keywords)
