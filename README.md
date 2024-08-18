@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Disney+ Clone with NEXT.JS 14
 
-## Getting Started
+Ce projet est un clone de Disney+ construit avec [Next.js 14](https://nextjs.org/), utilisant des technologies modernes telles que [Microsoft Azure](https://azure.microsoft.com/), la mise en cache, [OpenAI](https://openai.com/), [Shadcn](https://shadcn.dev/) et [TailwindCSS](https://tailwindcss.com/).
 
-First, run the development server:
+## Prise en main
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Pour démarrer avec ce projet, suivez les étapes ci-dessous :
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prérequis
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Assurez-vous d'avoir installé les éléments suivants :
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
+- [pnpm](https://pnpm.io/) ou [Bun](https://bun.sh/)
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clonez le dépôt :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/votre-utilisateur/disney-plus-clone.git
